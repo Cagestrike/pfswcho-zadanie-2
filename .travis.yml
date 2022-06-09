@@ -14,7 +14,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
   app: "pfswcho-zadanie-2"
-  env: "Pfswchozadanie2-env-1"
+  env: "Pfswchozadanie2-env"
   bucket_name: "elasticbeanstalk-us-east-1-212058688361"
   bucket_path: "pfswcho-zadanie-2"
   edge: true
