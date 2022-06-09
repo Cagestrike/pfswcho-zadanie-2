@@ -12,13 +12,13 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-east-2"
-  app: "docker-test"
-  env: "dockertest-env"
-  bucket_name: "elasticbeanstalk-us-east-2-039699603980"
-  bucket_path: "docker-test"
+  region: "us-east-1"
+  app: "pfswcho-zadanie-2"
+  env: "Pfswchozadanie2-env-1"
+  bucket_name: "elasticbeanstalk-us-east-1-212058688361"
+  bucket_path: "pfswcho-zadanie-2"
   edge: true
   on:
-    branch: master
+    branch: main
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
